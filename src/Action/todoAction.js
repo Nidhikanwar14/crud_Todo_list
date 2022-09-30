@@ -1,9 +1,9 @@
 import {ADD_TODO, DELETE_TODO, UPDATE_TODO} from "./todoTypes";
 
-export const addTodo = (message) =>{
+export const addTodo = (message) => {
     return{
-    type : ADD_TODO,
-    payload: message
+        type : ADD_TODO,
+        payload: message
     }
 }
 
